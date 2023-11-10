@@ -1,0 +1,78 @@
+.container{
+  text-align: center;
+  background-color: darkblue;
+  border-radius: 10px;
+  padding-bottom: 40px;
+  margin-bottom: 50px;
+}
+h1{
+  color: white;
+}
+mat-card-header{
+  display: block;
+}
+
+.login-card {
+  margin: auto;
+  max-width: 500px;
+  text-align: center;
+  padding: 40px;
+}
+
+.mat-form-field {
+   display: block;
+  position: relative;
+  font-size: 16px;
+}
+.mdp-oubli-link{
+  margin-bottom: 10px;
+}
+.button-connexion{
+  background: darkblue;
+  color: white;
+}
+
+.button-connexion:disabled {
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
+/***********************/
+.seperator{
+  margin-top: 20px;
+}
+/**********************/
+.nvclient-card{
+  margin: auto;
+  max-width: 500px;
+  background: antiquewhite;
+}
+.button-inscription{
+  background: darkblue;
+  color: white;
+}
+/*************************/
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+.mdp-oubli-link{
+  margin-top: -20px;
+}
+span{
+  color:cornflowerblue;
+}
+/**************************/
+

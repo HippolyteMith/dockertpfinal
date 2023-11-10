@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: fr.sqli.formation.gamelife.repository.UtilisateurRepositoryTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 2, Skipped: 0, Time elapsed: 1.809 s <<< FAILURE! - in fr.sqli.formation.gamelife.repository.UtilisateurRepositoryTest
+trouverEmailTest  Time elapsed: 0.474 s  <<< ERROR!
+java.util.NoSuchElementException: No value present
+	at fr.sqli.formation.gamelife.repository.UtilisateurRepositoryTest.trouverEmailTest(UtilisateurRepositoryTest.java:32)
+
+testInsert01  Time elapsed: 0.498 s  <<< ERROR!
+java.util.NoSuchElementException: No value present
+	at fr.sqli.formation.gamelife.repository.UtilisateurRepositoryTest.testInsert01(UtilisateurRepositoryTest.java:25)
+
+testSelect01  Time elapsed: 0.392 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <test@test.com> but was: <fabien.bidault@social.aston-ecole.com>
+	at fr.sqli.formation.gamelife.repository.UtilisateurRepositoryTest.testSelect01(UtilisateurRepositoryTest.java:39)
+

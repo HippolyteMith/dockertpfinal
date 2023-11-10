@@ -1,0 +1,6 @@
+fr\sqli\formation\gamelife\service\InscriptionServiceTest.class
+fr\sqli\formation\gamelife\service\AuthentificationServiceTest.class
+fr\sqli\formation\gamelife\GamelifeApplicationTests.class
+fr\sqli\formation\gamelife\repository\UtilisateurRepositoryTest.class
+fr\sqli\formation\gamelife\service\ProduitServiceTest.class
+fr\sqli\formation\gamelife\service\GestionCompteServiceTest.class

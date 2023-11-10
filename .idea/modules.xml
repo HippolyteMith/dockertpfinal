@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/gamelife-back/gamelife.iml" filepath="$PROJECT_DIR$/gamelife-back/gamelife.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/tpfinal.iml" filepath="$PROJECT_DIR$/.idea/tpfinal.iml" />
+    </modules>
+  </component>
+</project>

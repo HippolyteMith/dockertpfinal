@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: fr.sqli.formation.gamelife.service.InscriptionServiceTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 1.346 s <<< FAILURE! - in fr.sqli.formation.gamelife.service.InscriptionServiceTest
+testInscription01  Time elapsed: 0.271 s  <<< ERROR!
+java.lang.IllegalArgumentException: Champs invalides
+	at fr.sqli.formation.gamelife.service.InscriptionServiceTest.testInscription01(InscriptionServiceTest.java:28)
+
+testInscription02  Time elapsed: 0.345 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown ==> expected: <fr.sqli.formation.gamelife.ex.UtilisateurExistantException> but was: <java.lang.IllegalArgumentException>
+	at fr.sqli.formation.gamelife.service.InscriptionServiceTest.testInscription02(InscriptionServiceTest.java:36)
+Caused by: java.lang.IllegalArgumentException: Champs invalides
+	at fr.sqli.formation.gamelife.service.InscriptionServiceTest.lambda$testInscription02$0(InscriptionServiceTest.java:36)
+	at fr.sqli.formation.gamelife.service.InscriptionServiceTest.testInscription02(InscriptionServiceTest.java:36)
+

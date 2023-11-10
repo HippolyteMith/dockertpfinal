@@ -1,0 +1,12 @@
+DOCKERISATION :
+    - front:
+        compilation avec npm puis prend les fichers pour les mettre dans le dossier html de nginx
+    - back:
+        compilation spring puis le run via le script mvnw que l'on copie et donne les droit d'execution
+        (note vérifier que les fins de ligne soit en LF cela peux faire planter le build)
+COMPOSE:
+    Chaque conteneur est lié via un network unique via le driver bridge, le conteneur back dépend de celui
+    de la bdd qui est un conteneur mysql que l'on initialise via un volume present dans le dossier db du back.
+    les conteneurs du front et back on un champ build qui permet de pouvoir build les image depuis le compose.
+
+    Il suffit de lancer le projet avec la commande "docker compose up --build"
